@@ -1,3 +1,24 @@
+// functions can be identified by a set of () following the function name
+// the curly braces create a 'block' of code that will execute when the function is called
+// everything inside the brace will run once the function is called
+// to call a function, you type the name of the function followed by a set of ()
+// object methods are also functions that are built into the javascript language
+// any function without a return will return undefined 
+// using return will send the value back up to the function 
+
+
+function logRandom() {
+  const randomNumber = Math.ceil(Math.random() * 5)
+  console.log(randomNumber)
+}
+alert()
+
+function getRandom() {
+  const randomNumber = Math.ceil(Math.random() * 5)
+  return randomNumber
+}
+const myRandomNumber = getRandom()
+
 function sayHello() {
   console.log("hello world")
 }
@@ -9,6 +30,13 @@ function sayHello(name) {
 }
 sayHello("timmy")
 sayHello(name)
+
+
+function getArea(width, length, unit) {
+  const area = width * length
+  return area + " " + unit;
+}
+const myArea = getArea(4,4, 'sq ft')
 
 function multiply(x,y) {
   console.log("i'm about to multiply!")

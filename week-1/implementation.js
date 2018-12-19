@@ -13,14 +13,13 @@
  */
 
 
-
 /** NUMBER (easy)
  * Declare a varaible called randomNumber
  * Now using the Math object, make the randomNumber variable equal to a random number being 1-10
  * Test it by outputting this variable to the console either at repl.it or running `node <your file name>.js` multiple times 
  */
 
-/** NUMBER (hard)
+/** NUMBER (medium)
  * Given these following variables
  * let bill = 100 
  * let partySize = 4 
@@ -40,8 +39,39 @@
  * When you log the end result, it should look like -> ['Frozen', 'Snow White' ,'Aladdin', 'Mulan', 'Hercules']
  */
 
+/** ARRAYS & OBJECTS (easy)
+ * Given the following code block
+ * Using your knowledge of how to access indices of arrays / keys on objects
+ * Write a console.log statement that will output the name 'Garrosh Hellscream' to the console
+ */
 
-/** OBJECT (hard)
+ // ___________________________________________________________________________________________________
+const WOW = {
+    alliance: [
+        {
+            name: 'Varian Wrynn',
+            race: 'Human'
+        },
+        {
+            name: 'Tyrande Whisperwind',
+            race: 'Nightelf'
+        }
+    ],
+    horde: [
+        {
+            name: 'Garrosh Hellscream',
+            race: 'Orc'
+        },
+        {
+            name: 'Sylvannas Windrunner',
+            race: 'Undead'
+        }
+    ]
+}
+
+// _____________________________________________________________________________________________________
+
+/** OBJECT (medium)
  * Declare an object literal called person 
  * The person object should have the following properties
  * hasArms, hasLegs, and hasWings -> All of these values should be boolean (whether they're true or false is up to you)
@@ -65,7 +95,7 @@
 /** BOOLEANS & CONDITIONALS (hard)
  * Given this block of code
  */
-
+//_____________________________________________________________________________________________________________
  const movieCharacters = [
      {
         name: 'Frodo Baggins',
@@ -85,6 +115,7 @@
      }
  ]
 
+
  /**
   * Write conditional statement in the block below in order to assign the approrpiate movie name given each character's name
   * Hint: This is an array of object, but you don't need to focus too much on the array aspect because the loops have already been written
@@ -92,19 +123,21 @@
   * The movie names should all be strings 
   * BONUS: After doing this with an if/else statement, try to see if you can do it using a switch/case (you'll have to look up the syntax)
   */
-
  movieCharacters.forEach(character => {
      //YOUR CODE HERE
  })
 
  movieCharacters.forEach(character => console.log(`I'm ${character.name}, I was in ${character.movie}!`))
 
+ // ____________________________________________________________________________________________________________________
 
-/** FUNCTION (easy)
+
+/** FUNCTION (hard)
  * Write a function called maxNumber, that will take two arguments and always RETURN the greater of the two numbers
  * Under the function, store the function call to a variable called max
  * Finally output the variable max to the console and verify that you get the desired outcome 
  */
+
 
 /** CONCEPTS
  * What is the boolean evaluation of "0", "false", !true, !!false, "", "hello world", null, undefined, NaN

@@ -1,5 +1,10 @@
 // Strings are used to represent text, and are surrounded by quotes
 
+
+1 + "1"
+"1" + "1"
+
+
 //string concatenation -> joining two or more strings together
 const message = "Hello, good"
 const time = "morning"

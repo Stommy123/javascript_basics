@@ -25,7 +25,7 @@
 */
 
 /**
-* Gradepoint Average (very hard)
+* Gradepoint Average (very hard) **BONUS
 * Write a function called GPA, this function should take one argument
 * Assume the argument will always be an array
 * Inside the function, loop through this two dimensional array and return the average of each nested array

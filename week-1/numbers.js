@@ -14,7 +14,7 @@ myNumber === 7
 ++ //increment
 -- //decrement
 
-Math.round
+Math.round(3.14)
 Math.ceil
 Math.floor
 Math.random

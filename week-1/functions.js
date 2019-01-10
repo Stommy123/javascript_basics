@@ -32,6 +32,12 @@ sayHello("timmy")
 sayHello(name)
 
 
+function sayHello(param = "Bob") {
+  console.log(`hello ${name}`)
+}
+sayHello()
+sayHello("Not Bob")
+
 function getArea(width, length, unit) {
   const area = width * length
   return area + " " + unit;

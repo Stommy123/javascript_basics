@@ -15,12 +15,14 @@ cleanRoom()
     .then(result => getIceCream(result))
     .then(result => console.log(result + 'now im going to bed'))
 
-
-const mowLawn = _ => new Promise((resolve, reject) => resolve('I mowed the lawn'))
-const vaccumLivingRoom = _ => new Promise((resolve, reject) =>  resolve(' I vaccumed the living room'))
-const scrubBathtub = _ => new Promise((resolve, reject) =>  resolve(' I scrubbed the bathtub'))
+const mowLawn = _ => new Promise(resolve => resolve('I mowed the lawn'))
+const vaccumLivingRoom = _ => new Promise(resolve =>  resolve('I vaccumed the living room'))
+const scrubBathtub = _ => new Promise(resolve =>  resolve('I scrubbed the bathtub'))
 const chores = [mowLawn(), vaccumLivingRoom(), scrubBathtub()]
-const done = Promise.all(chores).then( res => console.log(res + "\nAll done!"))
+const done = Promise.all(chores).then( res => {
+    res.forEach( chore => console.log(chore))
+    console.log("All Done!")
+  });
 
 
 

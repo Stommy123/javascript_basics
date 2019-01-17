@@ -12,3 +12,43 @@
 // Poem should have a unique method called 'recite' which will return its content property
 
 //Instantiate a book and poem then test all of these methods and attributes. Use any title / author that you'd like
+
+class Literature {
+  constructor(title, author) {
+    this.title = title
+    this.author = author
+  }
+  getTitle() {
+    return this.title
+  }
+  getAuthor() {
+    return this.author
+  }
+}
+​
+class Book extends Literature {
+  constructor(numberOfChapters) {
+   super('Harry Potter', 'JK Rolling')
+   this.numberOfChapters = numberOfChapters
+ }
+   amISpecial() {
+     if (title.charAt(0) == 's') {
+       return 'Im very special'
+     } else {
+       return 'Im pretty special too'
+     }
+   }
+}
+
+ class Poem extends Literature {
+   constructor(numberOfVerses, content) {
+     super('When You Are Old', 'WB Yeats')
+     this.numberOfVerses = numberOfVerses
+     this.content = content
+   }
+   return this.content
+ }
+​
+const book1 = new Book('15')
+​
+console.log(Book)

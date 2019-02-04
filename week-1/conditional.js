@@ -79,7 +79,7 @@ zoo.forEach(animal => {
     animal.species = "Zebra"
   } else if (animal.name === "Gloria") {
     animal.species = "Hippo"
-  } else if (animal.name === "Marvin") {
+  } else if (animal.name === "Melman") {
     animal.species = "Giraffe"
   }
 })

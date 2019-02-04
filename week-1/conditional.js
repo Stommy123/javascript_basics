@@ -49,7 +49,7 @@ if (money >= 100) {
 } else if (money < 50 && money > 25) {
   console.log("you're broke")
 } else {
-  console.log("nigga, are you even trying?")
+  console.log("Are you even trying?")
 }
 
 

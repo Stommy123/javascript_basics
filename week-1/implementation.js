@@ -34,7 +34,7 @@
 
 /** ARRAYS (easy)
  * Given an array let disneyMovies = ['Fast and Furious', 'Snow White' ,'Aladdin', 'Mulan', 'Dirty Dancing']
- * Without declaring any new variables array methods to remove the two non-disney movies from the array
+ * Without declaring any new variables, use array methods to remove the two non-disney movies from the array
  * Then add 'Frozen' to the front of the array and 'Hercules' to the end of the array
  * When you log the end result, it should look like -> ['Frozen', 'Snow White' ,'Aladdin', 'Mulan', 'Hercules']
  */
@@ -96,38 +96,38 @@ const WOW = {
  * Given this block of code
  */
 //_____________________________________________________________________________________________________________
- const movieCharacters = [
+ const superHeroes = [
      {
-        name: 'Frodo Baggins',
-        movie: null
+        name: 'Clark Kent',
+        secretIdentity: null
      },
      {
-         name: 'Jack Dawson',
-         movie: null
+         name: 'Barry Allen',
+         secretIdentity: null
      },
      {
-         name: 'Anakin Skywalker',
-         movie: null
+         name: 'Diana Prince',
+         secretIdentity: null
      },
      {
          name: 'Bruce Wayne',
-         movie: null
+         secretIdentity: null
      }
  ]
 
 
  /**
-  * Write conditional statement in the block below in order to assign the approrpiate movie name given each character's name
+  * Write conditional statement in the block below in order to assign the approrpiate secret identity given each character's name
   * Hint: This is an array of object, but you don't need to focus too much on the array aspect because the loops have already been written
   * The parameter that will represent each individual object in the loop is 'character'
   * The movie names should all be strings
   * BONUS: After doing this with an if/else statement, try to see if you can do it using a switch/case (you'll have to look up the syntax)
   */
- movieCharacters.forEach(character => {
+ superHeroes.forEach(hero => {
      //YOUR CODE HERE
  })
 
- movieCharacters.forEach(character => console.log(`I'm ${character.name}, I was in ${character.movie}!`))
+ superHeroes.forEach(hero => console.log(`My name is ${hero.name}, but secretly, I'm ${hero.secretIdentity}!`))
 
  // ____________________________________________________________________________________________________________________
 

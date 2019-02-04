@@ -10,19 +10,19 @@ const people = [
   },
   {
     name: 'Pikachu',
-    city: 'Electric'
-  }
+    type: 'Electric'
+  },
   {
     name: 'Magmar',
-    city: 'Fire'
-  }
+    type: 'Fire'
+  },
   {
     name: 'Onyx',
-    city: 'Rock'
-  }
+    type: 'Rock'
+  },
   {
     name: 'Moltres',
-    city: 'Fire'
+    type: 'Fire'
   }
 ]
 const myParty = []
@@ -66,7 +66,7 @@ const sushiRestaurant = [
 * Test your function with these examples
 */
 ['hello world', 'goobye world', 0, ""] // ['hello world', 'goobye world']
-['foo', false 'bar', undefined, {}] // ['foo', 'bar', {}]
+['foo', false, 'bar', undefined, {}] // ['foo', 'bar', {}]
 [[false, undefined, 0, NaN], 'goobye world', 123] // [[false, undefined, 0, NaN], 'goobye world', 123]
 
 

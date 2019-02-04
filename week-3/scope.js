@@ -31,8 +31,7 @@ console.log(dog);
 // Hoisting refers to the way the JavaScript interpreter moves all variable and function declarations to the top of the current scope.
 
 
-console.log(BIRD); // ReferenceError: bird
-is not defined
+console.log(BIRD); // ReferenceError: bird is not defined
 const BIRD = "tweet";
 
 console.log(dog); // undefined

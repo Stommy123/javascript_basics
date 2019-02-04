@@ -1,4 +1,4 @@
-const createPerson = (name, birthPlace) {
+const createPerson = (name, birthPlace) => {
   return {
     name,
     birthPlace,

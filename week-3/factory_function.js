@@ -5,7 +5,7 @@ const createPerson = (name, birthPlace) => {
     isAlive: true
   }
 }
-const newPerson = createPerson("Obama", "Not America", true)
+const newPerson = createPerson("Obama", "Not American", true)
 
 
 function createChracter(head, body, arms, legs) {
